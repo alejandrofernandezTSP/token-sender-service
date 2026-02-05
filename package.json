@@ -1,0 +1,16 @@
+{
+  "name": "token-sender-service",
+  "version": "1.0.0",
+  "description": "Servicio seguro para enviar tokens TSP",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ethers": "^6.7.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
