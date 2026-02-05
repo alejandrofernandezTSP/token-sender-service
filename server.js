@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 // Secret compartido - CÁMBIALO por uno aleatorio
-const API_SECRET = process.env.API_SECRET || 'cambiar-este-secret-por-uno-seguro-123456789';
+const API_SECRET = process.env.API_SECRET || '3c4431a3-dbe9-4135-93e9-fbd92cae9ae6';
 
 // Endpoint de health check
 app.get('/', (req, res) => {
