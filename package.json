@@ -1,16 +1,16 @@
 {
   "name": "token-sender-service",
-  "version": "1.0.0",
-  "description": "Servicio seguro para enviar tokens TSP",
+  "version": "2.0.0",
+  "description": "Token Sport — Blockchain Service (TSP + NFT)",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
+  "author": "Token Sport",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
-    "ethers": "^6.7.1"
-  },
-  "engines": {
-    "node": ">=18.0.0"
+    "ethers": "^6.13.0",
+    "express": "^4.21.0",
+    "dotenv": "^16.4.0"
   }
 }
