@@ -1,3 +1,4 @@
+BigInt.prototype.toJSON = function() { return this.toString(); };
 const { ethers } = require('ethers');
 const fs = require('fs');
 const path = require('path');
